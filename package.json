@@ -1,0 +1,30 @@
+{
+  "name": "18th-node-2",
+  "version": "1.0.0",
+  "description": "2nd Hands-on for Node, which includes creating a server by using express module and creating routes for /api/main and send the response explaining what is express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugged-codes/Pb_Asses-18-node.git"
+  },
+  "keywords": [
+    "server",
+    "node",
+    "express"
+  ],
+  "author": "vipul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugged-codes/Pb_Asses-18-node/issues"
+  },
+  "homepage": "https://github.com/bugged-codes/Pb_Asses-18-node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-generator": "^4.16.1",
+    "nodemon": "^2.0.20"
+  }
+}
