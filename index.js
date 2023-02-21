@@ -9,8 +9,8 @@ const server = express();
 
 // GET method for server using express.
 server.get('/', (req, res) => {
-	res.send('<h1>This is Homepage!</h1>');
-	res.send('<h3>Different pages on server are as follows: </h3><ul><li>/gallary</li><li>/api</li></ul>');
+	res.send('<h1>This is Homepage!</h1><h3>Different pages on server are as follows: </h3><ul><li>/gallary</li><li>/api</li></ul>');
+	// res.send('<h3>Different pages on server are as follows: </h3><ul><li>/gallary</li><li>/api</li></ul>');
 	res.end();
 });
 
